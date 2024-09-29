@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lucas Rios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="hero">
+        <h1>Olá, eu sou Lucas Rios.</h1>
+        <p>Desenvolvedor Web</p>
+        <div class="scroll-down" onclick="scrollToAbout()">↓ Saiba Mais ↓</div>
+    </div>
+
+    <div class="about" id="about">
+        <h2>Sobre Mim</h2>
+        <p>
+            Sou apaixonado por inovação e estou sempre em busca de me manter atualizado sobre a indústria da tecnologia.
+            Acredito no aprendizado contínuo e me inspiro em pessoas que já alcançaram o que almejo, procurando aprender
+            com elas para ir cada vez mais longe. Atualmente, estou cursando mestrado em Engenharia de Software na
+            PUC/PR, o que tem ampliado ainda mais meu conhecimento. Me empolgo com novas ideias e, se há algo que
+            realmente me fascina, é codar. A sensação de resolver um bug ou descobrir uma nova maneira de fazer algo me
+            motiva e me inspira diariamente.
+        </p>
+    </div>
+
+    <div class="projects" id="projects">
+
+        <div class="project">
+            <img src="./imagens/projeto_cartas_climaticas.png" alt="CARTAS DE DIREITOS CLIMÁTICOS">
+            <div class="project-details">
+
+
+                <h2>Projeto 1: Cartas de Direitos Climáticos</h2>
+                <p>
+                    A <strong>ONG <a href="https://www.climaterealityproject.org.br/" target="_blank">The Climate
+                            Reality Project Brasil</a></strong> criou as Cartas de Direitos Climáticos para que
+                    comunidades vulneráveis possam expressar suas demandas e influenciar políticas climáticas. O
+                    projeto, iniciado no Complexo da Maré, visa empoderar essas populações, e em 2023, um curso foi
+                    lançado para expandir a metodologia junto a organizações locais.
+                </p>
+
+                <p>
+                    Em 2024, foi lançado o site <a href="http://cartasdedireitosclimaticos.com"
+                        target="_blank">cartasdedireitosclimaticos.com</a>, que mantém as Cartas de Direitos Climáticos
+                    acessíveis a todos. A <a href="https://www.climaterealityproject.org.br/" target="_blank">The
+                        Climate Reality Project Brasil</a> é responsável por gerenciar a plataforma e adicionar novas
+                    cartas, ampliando a visibilidade dessas iniciativas.
+                </p>
+
+                <p>
+                    O desenvolvimento do site contou com a colaboração de três voluntários: <a
+                        href="https://github.com/LucasMoreira97" target="_blank">Lucas Rios (eu)</a>, responsável pelo
+                    esquema do banco de dados e desenvolvimento do front-end, além de <a
+                        href="https://github.com/MarcosMoreira99" target="_blank">Marcos Vinicius</a> e <a
+                        href="https://github.com/KaioSS01" target="_blank">Caio Souza</a>, que atuaram no back-end.
+                </p>
+
+                <p>Todo o código está disponível publicamente no <a href="https://github.com/LucasMoreira97/climate_brasil" target="_blank">GitHub</a>.</p>
+
+            </div>
+        </div>
+
+        <div class="project">
+
+            <div id="imageModal" class="image-modal">
+                <span id="closeModal" class="close">&times;</span>
+                <img id="modalImage" class="modal-content">
+            </div>
+
+            <img src="./imagens/projeto_meu_dinheiro.png" alt="Meu dinheiro">
+            <div class="project-details">
+                <h2>Projeto 2: Meu dinheiro</h2>
+                <p>
+                    Eu sentia falta de um aplicativo simples que me permitisse gerenciar minhas receitas e despesas de
+                    forma prática. Então, decidi criar a solução que estava buscando, e assim nasceu o 
+                    <a href="https://meudinheiro.sixdevs.com" target="_blank">"Meu Dinheiro"</a>, um sistema 
+                    de gestão financeira para o dia a dia.
+                    </p>
+
+                <p>Com o <a href="https://meudinheiro.sixdevs.com" target="_blank">"Meu Dinheiro"</a>, você pode gerenciar suas despesas e receitas de maneira fácil e
+                    intuitiva. Além disso, é possível adicionar outras pessoas para compartilhar o gerenciamento
+                    financeiro. Defina metas mensais, estabeleça limites de gastos e acompanhe tudo pelo app. Com ele,
+                    você saberá se já ultrapassou seus limites ou se ainda está no "verde" — podendo continuar suas
+                    compras com tranquilidade.</p>
+
+                <p>Todo o código está disponível publicamente no <a href="https://github.com/LucasMoreira97/MeuDinheiro" target="_blank">GitHub</a>.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="academic-projects" id="academic-projects">
+        <h2>Projetos Acadêmicos</h2>
+
+        <div class="academic-project">
+            <h3>Disciplina: Metodologia de Pesquisa em Computação</h3>
+
+            <p>
+                Nosso trabalho da disciplina, intitulado <a href="./pdf/trabalho_final_mpc.pdf" target="_blank">"Atualização do
+                Mapeamento Sistemático da Literatura sobre Qualidade em Equipes Ágeis"</a>, desenvolvido por uma equipe de 5 pessoas 
+                na disciplina de Qualidade de Software do mestrado, analisou as práticas e tendências mais recentes na adoção de metodologias ágeis.
+            </p>
+
+            <p>
+                Scrum foi o método ágil mais citado, aparecendo em 78% dos artigos analisados. Test-Driven Development
+                (TDD) foi mencionado em aproximadamente 20% dos estudos, destacando-se como essencial para garantir a
+                qualidade do software. As métricas de projeto, como Burndown, foram identificadas em 58% dos artigos,
+                sendo fundamentais para monitorar o progresso em equipes ágeis.
+            </p>
+
+            <p>
+                Esse trabalho proporcionou uma visão abrangente sobre as práticas ágeis e seus impactos na qualidade do
+                desenvolvimento de software.
+            </p>
+        </div>
+
+        <div class="academic-project">
+            <h3>Disciplina: Qualidade de Software</h3>
+
+            <p>
+                Nosso trabalho da disciplina, intitulado <a href="./pdf/trabalho_final_qs.pdf">"Uso da Inteligência Artificial 
+                Generativa em Testes de Software"</a>, realizado por uma equipe de 2 pessoas na disciplina de Qualidade de Software, 
+                investigou como grandes modelos de linguagem (LLMs) estão sendo aplicados em testes de software.
+            </p>
+
+            <p>
+                Identificamos que a principal aplicação de LLMs está na preparação de casos de teste e no debug. Entre os benefícios 
+                observados estão o aumento na cobertura de testes, a descoberta mais rápida de bugs e a redução do tempo de desenvolvimento. 
+                Os principais desafios incluem lidar com alucinações, a escolha da LLM adequada e a complexidade das lógicas envolvidas.
+            </p>
+            
+            <p>
+                Este trabalho revelou o crescente impacto das LLMs nos testes de software, com um aumento de 139% nas pesquisas publicadas em 
+                2024 em comparação com o ano anterior.
+            </p>
+
+        </div>
+
+
+    </div>
+ 
+    <div class="education">
+        <h2>Formação Acadêmica</h2>
+        <div class="education-item">
+            <h3>Mestrado em Engenharia de Software</h3>
+            <p>PUCPR - Pontifícia Universidade Católica do Paraná (2024 - Presente)</p>
+            <p>Principais áreas de estudo: Metodologias Ágeis, Qualidade de Software</p>
+        </div>
+
+        <div class="education-item">
+            <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+            <p>UNIFACS Universidade Salvador (2018 - 2021)</p>
+            <p>Principais disciplinas: Desenvolvimento Web, Engenharia de Software, Banco de Dados.</p>
+        </div>
+    </div>
+
+
+    <div class="contact">
+        <h2>Contato</h2>
+        <div class="contact-info">
+            <p><strong>Nome:</strong> Lucas Moreira Rios</p>
+            <p><strong>Endereço:</strong> Rua Padre Joao Kominek, 278 - Curitiba, PR</p>
+            <p><strong>Telefone:</strong> <a href="https://wa.me/5541987028677?text=Olá%2C%20Lucas" target="_blank">(41) 98702-8677</a></p>
+            <p><strong>Email:</strong> <a href="mailto:l-moreira@outlook.com.br">l-moreira@outlook.com.br</a></p>
+        </div>
+
+        <p>Conecte-se comigo:</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/dev-lucas-rios/" target="_blank">
+                <img src="./icone/linkedin-brands-solid.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/LucasMoreira97" target="_blank">
+                <img src="./icone/github-brands-solid.svg" alt="GitHub">
+            </a>
+        </div>
+    </div>
+
+    <script src="./interaction.js"></script>
+</body>
+
+</html>
